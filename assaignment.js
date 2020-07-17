@@ -27,7 +27,7 @@ console.log("");//for a breck between next answer
 
 var floor,brick;
 
-function brickCalcular(floor){
+function brickCalculor(floor){
   if(floor<=10){
   brick=floor*1000*15;
   return "Number of floor: "+ floor+". Required bricks: "+brick; 
@@ -46,7 +46,7 @@ function brickCalcular(floor){
     return "Number of floor: "+ floor+". Required bricks: "+brick;
   }
 }
-console.log(brickCalcular(15));
+console.log(brickCalculor(15));
 
 //probkem 4: tiny friend 
 console.log("");//for a breck between next answer
