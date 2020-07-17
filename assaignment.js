@@ -12,22 +12,22 @@ function feetToMile(feet) {
   var mile= feetToMile(10000);
   console.log(mile);
 
-// problem 2:wood calculator;
+// problem 2:wood Calculator;
 console.log("");//for a breck between next answer
 
 var chair,table,bed;
 function woodCalculator(chair,table,bed){
   totalWood = chair*1 + table*3 + bed*5;
-  return "Your demand is: " +chair+ " chair, " + table+ " table and " + bed+" bed."+" Recuired wood: "+totalWood+" CFT.";
+  return "Your demand is: " +chair+ " chair, " + table+ " table and " + bed+" bed."+" Required wood: "+totalWood+" CFT.";
 }
 console.log( woodCalculator(6,2,3) );
 
-//problem 3: brick calculator
+//problem 3: brick Calculator
 console.log("");//for a breck between next answer
 
 var floor,brick;
 
-function brickCalculor(floor){
+function brickCalculator(floor){
   if(floor<=10){
   brick=floor*1000*15;
   return "Number of floor: "+ floor+". Required bricks: "+brick; 
@@ -46,7 +46,7 @@ function brickCalculor(floor){
     return "Number of floor: "+ floor+". Required bricks: "+brick;
   }
 }
-console.log(brickCalculor(15));
+console.log(brickCalculator(15));
 
 //probkem 4: tiny friend 
 console.log("");//for a breck between next answer
@@ -61,6 +61,6 @@ for(var i=0; i< friends.length; i++){
             smallestName=newName; 
         }   
     }
+    return "Smallest name: "+ smallestName;
 }
-smallestname=tinyFriend(friends);
-console.log("smallest nume: ", smallestName);
+console.log(tinyFriend(friends));
